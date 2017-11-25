@@ -13,7 +13,10 @@ Repo pour le tutorat d'info111.
 
 ### **Linux**
 
-g++ -std=c++11 *.cpp -o nom
+|Compilateur | Commande|
+|------------ | -------------|
+| GCC | g++ -std=c++11 *.cpp -o nom |
+| Code::Blocks | Appuyer sur F9|
 
 ### **Windows**
 

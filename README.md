@@ -1,6 +1,9 @@
 # Tutorat
 Repo pour le tutorat d'info111.
 
+## Contenue
+Le repo contient le code du projet de rappel que nous avons fait en commun.
+
 ## Compilation
 ### **Rappel compilation à la main avec GCC/MinGW**
 |   | Signification|

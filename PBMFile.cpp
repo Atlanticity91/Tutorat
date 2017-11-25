@@ -3,16 +3,20 @@
 void ReadHeader( ifstream &file ) {
 	string text;
 
-	for ( int i = 0; i < 2; i++ )
+	for ( int i = 0; i < 2 && !file.eof( ); i++ )
 		getline( file, text, '\n' );
 }
 
 PixelArray MakePixelArray( ifstream &file ) {
 	int size = 0;
 	file >> size;
+	if ( file.eof( ) )
+		return;
 
 	PixelArray pixels = PixelArray( size );
 	file >> size;
+	if ( file.eof( ) )
+		return;
 	
 	for ( int index = 0; index < pixels.size( ); index++ )
 		pixels[ index ] = PixelLine( size );
@@ -26,6 +30,10 @@ void FillPixelArray( PixelArray &pixels, ifstream &file ) {
 	for ( int y = 0; y < pixels.size( ); y++ ) {
 		for ( int x = 0; x < pixels[ y ].size( ); x++ ) {
 			file >> value;
+			
+			if ( file.eof( ) )
+				return;
+			
 			pixels[ y ][ x ] = value;
 		}
 	}

@@ -2,7 +2,7 @@
 Repo pour le tutorat d'info111.
 
 ## Compilation
-### **Rappel**
+### **Rappel compilation à la main avec GCC/MinGW**
 |   | Signification|
 |---------------- | -------------|
 | g++ | Indique que l'on souhaite utiliser g++ pour compiler |

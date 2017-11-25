@@ -29,7 +29,9 @@ Le repo contient un code de correction du projet de rappel que nous avons fait e
 |Code::Blocks | Appuyer sur F9|
 
 ## Execution depuis le terminal ( CMD pour windows )
-| OS | Commande|
-|------------ | -------------|
+| OS | Commande |
+|------------ | ------------- |
 | Linux | ./nom |
 | Windows | nom |
+
+Le fichier **nom** doit être dans le répertoire courant sinon utiliser ./chemin/nom ou chemin est le chemin d'accès au fichier depuis le répertoire courant. Pour windows même commande retirer juste ./

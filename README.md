@@ -27,3 +27,9 @@ Le repo contient un code de correction du projet de rappel que nous avons fait e
 |------------ | -------------|
 |MinGW | g++ -std=c++11 *.cpp -o nom |
 |Code::Blocks | Appuyer sur F9|
+
+## Execution depuis le terminal( CMD pour windows )
+| OS | Commande|
+|------------ | -------------|
+| Linux | ./nom |
+| Windows | nom |

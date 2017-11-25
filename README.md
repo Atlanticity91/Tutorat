@@ -8,7 +8,7 @@ g++ -std=c++11 *.cpp -o projet
 
 **Windows**
 
-|Compilateur | Command|
+|Compilateur | Commande|
 |------------ | -------------|
-|MinGW | g++ -std=c++11 .cpp -o projet |
+|MinGW | g++ -std=c++11 *.cpp -o projet |
 |Code::Blocks | Appuyer sur F9|

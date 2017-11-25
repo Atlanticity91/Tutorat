@@ -3,7 +3,7 @@ Repo pour le tutorat d'info111.
 
 ## Compilation
 ### **Rappel**
-|    | Signification|
+|  Symbol  | Signification|
 |---------------- | -------------|
 |g++ | Indique que l'on souhaite utiliser g++ pour compiler |
 |-std=c++11 | Indique que l'on souhaite utiliser la version 11 de la librairie standard|

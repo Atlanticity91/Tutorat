@@ -5,7 +5,7 @@ Repo pour le tutorat d'info111.
 Le repo contient un code de correction du projet de rappel que nous avons fait en commun. Pour rappel le projet consistait à lire un fichier PBM et à afficher sont contenue dans la console et a partir de donnée créer un fichier PBM.
 
 ## Compilation
-#### **Rappel compilation à la main avec GCC/MinGW**
+### **Rappel compilation à la main avec GCC/MinGW**
 |   | Signification|
 |---------------- | -------------|
 | g++ | Indique que l'on souhaite utiliser g++ pour compiler |
@@ -14,14 +14,14 @@ Le repo contient un code de correction du projet de rappel que nous avons fait e
 | -o | Indique que l'on souhaite un fichier executable en sortie |
 | nom | Nom du fichier executable de sortie |
 
-#### **Linux**
+### **Linux**
 
 |Compilateur | Commande|
 |------------ | -------------|
 | GCC | g++ -std=c++11 *.cpp -o nom |
 | Code::Blocks | Appuyer sur F9|
 
-#### **Windows**
+### **Windows**
 
 |Compilateur | Commande|
 |------------ | -------------|

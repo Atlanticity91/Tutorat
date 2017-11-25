@@ -2,7 +2,7 @@
 Repo pour le tutorat d'info111.
 
 ## Contenue
-Le repo contient un code de correction du projet de rappel que nous avons fait en commun.
+Le repo contient un code de correction du projet de rappel que nous avons fait en commun. Pour rappel le projet consistait à lire un fichier PBM et à afficher sont contenue dans la console et a partir de donnée créer un fichier PBM.
 
 ## Compilation
 ### **Rappel compilation à la main avec GCC/MinGW**

@@ -11,12 +11,12 @@ PixelArray MakePixelArray( ifstream &file ) {
 	int size = 0;
 	file >> size;
 	if ( file.eof( ) )
-		return;
+		return pixels;
 
 	PixelArray pixels = PixelArray( size );
 	file >> size;
 	if ( file.eof( ) )
-		return;
+		return pixels;
 	
 	for ( int index = 0; index < pixels.size( ); index++ )
 		pixels[ index ] = PixelLine( size );
